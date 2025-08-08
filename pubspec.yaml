@@ -1,0 +1,22 @@
+name: playground
+description: Flutter playground project
+
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  # Test
+  test: any
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  generate: true
+  uses-material-design: true
